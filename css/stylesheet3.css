@@ -1,0 +1,108 @@
+body{
+
+background = "WhiteBackground.jpg"
+font-family: "Avenir";
+
+padding: 25px;
+
+}
+
+p.black {
+
+	background-color: black;
+	color: white;
+	text-align: center;
+	
+	}
+	
+p.white {
+
+	align: center; 
+	
+	}
+		
+html, body {
+
+	height: 100%;
+	padding: 20px;
+	
+	}
+	
+	ul{
+	
+	text-decoration: none;
+	
+}
+
+li{
+
+text-decoration: none;
+
+
+}
+
+#wrap {
+
+	min-height: 100%;
+	
+	}
+
+#main {
+
+	overflow:auto;
+	padding-bottom: 150px;
+	
+	}  /* must be same height as the footer */
+
+	
+* {
+       margin: 0; 
+       padding: 0;
+       
+       }
+       
+img.profile {
+      
+      height: 100px;
+      width: auto;
+      
+     }
+
+#banner { 
+
+       position: absolute; 
+       background-image:url('img/yellowBanner.jpg'); 
+       width: 100%; 
+       height: 100px;
+       
+     }
+     
+div#banner-content { 
+
+       width: 100%; 
+       margin: 0 auto; 
+       
+
+       
+     }
+     
+div#main-content 
+{ 
+       padding-top: 70px;
+    }
+    
+
+    p.black {background-color: black;
+     		    color: white;
+		    text-align: center;}
+
+/*Opera Fix*/
+body:before {
+	
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+	
+}
